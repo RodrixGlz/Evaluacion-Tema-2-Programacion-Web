@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(250, 40%, 50%);
+    background-image: url(./images/bg-desktop.svg);
+    color: white;
+    font-family: sans-serif;
+}
+.contenedor{       
+    display: flex;
+}
+.imagenes{
+    margin-left: 43px;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+}
+.ilustracion{
+    height: 420px;
+    margin-top: 30px;
+    width: 600px;
+}
+.textos{
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 130px;
+}
+.textos h1{
+    font-size: 45px;
+}
+.textos p{
+    font-size: 19.2px;
+}
+.btn{
+    padding-top: 10px;
+}
+.btn button{
+    border-color: white;
+    border-radius: 22px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.671);
+    color: blueviolet;
+    cursor: pointer;
+    font-size: 18.5px;
+    height: 50px;
+    width: 200px;
+}
+.redes-sociales{
+    height: 20px;
+    margin-top: 120px;
+    text-align: end;
+    width: auto;
+}
+.redes-sociales i{
+    width: 50px;
+}
